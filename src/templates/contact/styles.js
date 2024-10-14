@@ -1,7 +1,5 @@
 import styled from 'styled-components'
 
-import floor from '../../assets/images/floor.png'
-
 export const Content = styled.div`
   width: 1000px;
   height: 520px;

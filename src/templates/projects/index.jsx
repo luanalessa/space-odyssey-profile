@@ -22,8 +22,8 @@ const projects = {
         description: 'A interactive workspace as personal portfolio.',
         tecnologies:['React'],
     },
-    portfolio: {
-        name:'Portfolio',
+    resume: {
+        name:'Resume',
         url:'https://github.com/luanalessa/resume',
         description: 'A interactive workspace as personal portfolio.',
         tecnologies:['React'],

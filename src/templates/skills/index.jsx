@@ -68,6 +68,7 @@ const Skills = () => {
 
   const closeModal = () => {
     setIsModalOpen(false);
+    console.log(planetData);
   };
 
   return (

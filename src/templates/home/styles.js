@@ -82,7 +82,6 @@ width: 150%;
   height: auto;  
   object-fit: cover; 
 
-  /* Animação de movimento lento */
   animation: ${movePlanets} 8s ease-in-out infinite;
 `;
 

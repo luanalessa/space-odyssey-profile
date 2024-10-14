@@ -95,13 +95,13 @@ export const Input = styled.input`
   padding: 10px;
   background: #131517;
   border: none;
-  border-bottom: 2px solid #C778DD; /* Purple color from image */
+  border-bottom: 2px solid #C778DD; 
   color: white;
   font-size: 16px;
   border-radius: 3px;
   
   &::placeholder {
-    color: #C778DD;  /* Adjusted to purple */
+    color: #C778DD; 
     font-size: 14px;
   }
 `;
@@ -111,7 +111,7 @@ export const TextArea = styled.textarea`
   padding: 10px;
   background: #131517;
   border: none;
-  border-bottom: 2px solid #C778DD; /* Purple color from image */
+  border-bottom: 2px solid #C778DD; 
   color: white;
   font-size: 16px;
   border-radius: 3px;

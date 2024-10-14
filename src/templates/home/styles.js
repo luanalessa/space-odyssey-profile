@@ -28,7 +28,7 @@ export const TitleWrapper = styled.div`
   justify-content: center;
   color: white;
 
-  margin-top: 80px;
+  margin-top: 120px;
 
 
 `;
@@ -40,7 +40,7 @@ export const ButtonWrapper = styled.div`
   justify-content: center;
   justify-content: left;
   color: white;
-  margin-top: 20vh;
+  margin-top: 22vh;
 
 `;
 
@@ -66,14 +66,15 @@ export const RoleDescription = styled.span`
 `;
 
 export const ImageWrapper = styled.div`
- width: 50%; 
+ width: 60%;
+ height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
   
   margin-top: 30px;
-  clip-path: path('M56 0 C180 65, 255 163, 54 135 S333 910, 746 0');
+  clip-path: path('M56 -216 C180 84, 220 124, 58 180 S331 910, 1000 150');
 `;
 
 export const Image = styled.img`

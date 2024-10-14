@@ -20,7 +20,7 @@ export default function Home() {
                         <span>&gt;</span> FullStack Developer
                     </S.RoleDescription>
                     <S.RoleDescription>
-                        I like to build creative things for the web.
+                        Building creative things for the web.
                     </S.RoleDescription>
                     <S.ButtonWrapper>
                         

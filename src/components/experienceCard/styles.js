@@ -7,7 +7,7 @@ import driven from '../../assets/images/driven.svg'
 
 export const Container = styled.div`
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 70px;
     width: 250px;
     height: 60px;
 

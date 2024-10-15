@@ -17,7 +17,7 @@ export default function ExperienceBox({
       <S.Date>{date}</S.Date>
       <S.Description>
         {description.map((experiense) => (
-          <ul>{experiense}</ul>
+          <ul key={title}>{experiense}</ul>
         ))}
       </S.Description>
     </S.Container>

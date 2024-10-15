@@ -1,5 +1,6 @@
 import React from 'react';
 import * as S from './styles';
+import { FaHashtag } from "react-icons/fa6";
 
 export default function Header() {
   return (
@@ -7,27 +8,32 @@ export default function Header() {
       <S.Menu>
         <a href="#HomeTag">
           <S.Item>
-            <p>#</p>Home
+            <p><FaHashtag />
+            </p>Home
           </S.Item>
         </a>
         <a href="#AboutTag">
           <S.Item>
-            <p>#</p>About
+            <p><FaHashtag />
+            </p>About
           </S.Item>
         </a>
         <a href="#ExperienceTag">
           <S.Item>
-            <p>#</p>Experience
+            <p><FaHashtag />
+            </p>Experience
           </S.Item>
         </a>
         <a href="#ProjectsTag">
           <S.Item>
-            <p>#</p>Projects
+            <p><FaHashtag />
+            </p>Projects
           </S.Item>
         </a>
         <a href="#ContactTag">
           <S.Item>
-            <p>#</p>Contact
+            <p><FaHashtag />
+            </p>Contact
           </S.Item>
         </a>
       </S.Menu>

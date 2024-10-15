@@ -3,6 +3,7 @@ import Header from '../../../components/molecules/header';
 import Button from '../../../components/atoms/button';
 import Planets from '../../../assets/images/planets.png';
 import * as S from './styles';
+import { FaHashtag } from "react-icons/fa6";
 
 export default function Home() {
   return (
@@ -10,12 +11,13 @@ export default function Home() {
       <Header />
       <S.Container id="HomeTag">
         <S.TitleWrapper>
-          <S.MainTitle>Hi, I'm</S.MainTitle>
+          <S.MainTitle>Hi,I am</S.MainTitle>
           <S.MainTitle>
             <span>Luana Lessa</span>
           </S.MainTitle>
           <S.RoleDescription>
-            <span>&gt;</span> FullStack Developer
+            <span><FaHashtag />
+            </span> FullStack Developer
           </S.RoleDescription>
           <S.RoleDescription>
             Building creative things for the web.

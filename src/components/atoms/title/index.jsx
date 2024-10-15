@@ -1,3 +1,5 @@
+import React from 'react';
+import PropTypes from 'prop-types';
 import * as S from './styles';
 
 const Title = ({ children }) => {
@@ -10,6 +12,10 @@ const Title = ({ children }) => {
       <S.Line></S.Line>
     </S.Head>
   );
+};
+
+Title.propTypes = {
+  children: PropTypes.node.isRequired, 
 };
 
 export default Title;

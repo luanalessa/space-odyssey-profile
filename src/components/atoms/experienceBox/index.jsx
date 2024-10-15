@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import * as S from './styles';
 
 export default function ExperienceBox({
@@ -22,3 +23,13 @@ export default function ExperienceBox({
     </S.Container>
   );
 }
+
+ExperienceBox.propTypes = {
+  icon: PropTypes.string.isRequired,      
+  title: PropTypes.string.isRequired,       
+  subtitle: PropTypes.string.isRequired,    
+  date: PropTypes.string.isRequired,        
+  description: PropTypes.arrayOf(         
+    PropTypes.string
+  ).isRequired,
+};

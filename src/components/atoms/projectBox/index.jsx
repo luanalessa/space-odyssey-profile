@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import * as S from './styles';
 
 export default function ProjectBox({ href, title, description, tecnologies }) {
@@ -11,3 +12,17 @@ export default function ProjectBox({ href, title, description, tecnologies }) {
     </S.Container>
   );
 }
+
+ProjectBox.propTypes = {
+  href: PropTypes.string.isRequired,              
+  title: PropTypes.string.isRequired,            
+  description: PropTypes.string.isRequired,     
+  tecnologies: PropTypes.oneOfType([             
+    PropTypes.string,
+    PropTypes.arrayOf(PropTypes.string),
+  ]).isRequired,
+};
+
+ProjectBox.defaultProps = {
+  tecnologies: '',
+};

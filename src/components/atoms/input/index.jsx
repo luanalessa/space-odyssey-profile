@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import * as S from './styles';
 
 const Input = ({ type = 'input', placeholder, value, onChange }) => {
@@ -12,6 +13,21 @@ const Input = ({ type = 'input', placeholder, value, onChange }) => {
       onChange={onChange}
     />
   );
+};
+
+Input.propTypes = {
+  type: PropTypes.oneOf(['input', 'textarea']), 
+  placeholder: PropTypes.string,                
+  value: PropTypes.oneOfType([                  
+    PropTypes.string,
+    PropTypes.number,
+  ]).isRequired,                                
+  onChange: PropTypes.func.isRequired,       
+};
+
+Input.defaultProps = {
+  type: 'input',
+  placeholder: '',
 };
 
 export default Input;

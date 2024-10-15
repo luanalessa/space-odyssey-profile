@@ -1,30 +1,30 @@
 import React from 'react';
 
-import GlobalStyle from "./styles/GlobalStyle";
+import GlobalStyle from './styles/GlobalStyle';
 
-import Icons from './components/socialIcons'
+import IconBar from './components/molecules/iconBar';
 
-import Home from './templates/home'
-import Projects from './templates/projects';
-import Trail from './templates/experience'
-import Skills from './templates/skills';
-import Footer from './templates/footer';
+import Home from './components/organisms/home';
+import About from './components/organisms/about';
+import Projects from './components/organisms/projects';
+import Trail from './components/organisms/experience';
+import Footer from './components/molecules/footer';
+import Contact from './components/organisms/contact';
 
-import * as S from './styles/styles'
+import * as S from './styles/styles';
 
-import Contact from './templates/contact'
 export default function App() {
   return (
     <>
       <GlobalStyle />
       <S.Container>
-            <Home />
-            <Projects/>
-            <Trail/>
-            <Skills/>
-            <Contact/>
-            <Footer/>
-            <Icons />
+        <Home />
+        <About />
+        <Trail />
+        <Projects />
+        <Contact />
+        <Footer />
+        <IconBar />
       </S.Container>
     </>
   );
